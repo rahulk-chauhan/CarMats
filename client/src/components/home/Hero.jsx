@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HERO_URL } from '../../utils/constants';
+// import Image from "../../image/hero4.jpg";
+
 // import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -9,20 +11,20 @@ const Hero = () => {
 
 
 
-    const underlineAnimate = {
-        hidden: {
-          opacity: 0,
-          pathLength: 0,
-        },
-        visible: {
-          opacity: 1,
-          pathLength: 1,
-          transition: {
-            delay: 0.8,
-            duration: .6,
-          },
-        },
-    };
+    // const underlineAnimate = {
+    //     hidden: {
+    //       opacity: 0,
+    //       pathLength: 0,
+    //     },
+    //     visible: {
+    //       opacity: 1,
+    //       pathLength: 1,
+    //       transition: {
+    //         delay: 0.8,
+    //         duration: .6,
+    //       },
+    //     },
+    // };
 
     const headerAnimate = {
         hidden: {
@@ -85,7 +87,7 @@ const Hero = () => {
     return (
         <div>
             <div className="absolute top-1/4 -left-8 w-40 h-40 xl:w-72 xl:h-60 bg-secondary-200 rounded-2xl transform-gpu -rotate-12 z-[-1]"></div>
-            <div className='w-full h-screen flex flex-col justify-between px-8 py-12 z-10'>
+            <div className='w-full flex flex-col justify-between px-8 py-12 z-10'>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="flex flex-col mt-16">
                         <motion.h1 className="text-4xl md:text-5xl lg-text-7xl 2xl:text-8xl font-bold"
@@ -93,10 +95,9 @@ const Hero = () => {
                             initial="hidden"
                             animate="visible"
                         >
-                            Best Tech Deals
-                            <br />
-                            On Best Prices
-                            <svg
+                            
+                            Car Floor Mats
+                            {/* <svg
                                 className="svg-underline stroke-[#ffb81c] relative z-10 w-64 md:w-1/2 lg:w-3/4"
                                 strokeLinejoin="round"
                                 strokeLinecap="round"
@@ -111,16 +112,14 @@ const Hero = () => {
                                     initial="hidden"
                                     animate="visible"
                                 />
-                            </svg>
+                            </svg> */}
                         </motion.h1>
                         <motion.p className="text-lg py-6"
                             variants={textAnimate}
                             initial="hidden"
                             animate="visible"
                         >
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Quisquam exercitationem tempore animi odio similique porro atque eveniet, 
-                            soluta sapiente, laboriosam, assumenda accusantium.
+                          We use authentic material to provide you the all weather reliable flooring to the car. Along with weather research and and authentic material research, we also have the design team to make the car flooring mats give a genuine and modern interior look to the car's floor.
                         </motion.p>
                         <motion.div
                             variants={linksAnimate}
@@ -142,7 +141,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: .4 }}
                     >
-                        <img className="h-[75%]" src={HERO_URL} alt="" />
+                        <img className="h-[75%] rounded-xl" src={HERO_URL} alt="props" />
                     </motion.div>
                 </div>
             </div>

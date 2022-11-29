@@ -1,12 +1,12 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
-import { Chart as ChartJs } from 'chart.js/auto';
+// import { Chart as ChartJs } from 'chart.js/auto';
 
 
 const BarChart = () => {
 
     const data = {
-        labels: ['Desktop', 'Laptop', 'Printer', 'Scanner', 'Tablet', 'Monitor'],
+        labels: ['desktop', 'Laptop', 'Printer', 'Scanner', 'Tablet', 'Monitor'],
         datasets: [{
             label: '# of prods',
             data: [6, 6, 2, 1, 3, 5],

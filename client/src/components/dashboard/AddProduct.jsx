@@ -195,12 +195,12 @@ const AddProduct = () => {
                 className="form-select bg-gray-100"
               >
                 <option value=""></option>
-                <option value="desktop">Desktop</option>
-                <option value="laptop">Laptop</option>
-                <option value="printer">Printer</option>
-                <option value="scanner">Scanner</option>
-                <option value="tablet">Tablet</option>
-                <option value="monitor">Monitor</option>
+                <option value="desktop">Car Mates</option>
+                <option value="laptop">Automotive Accessories</option>
+                <option value="printer">Vehicle Mates</option>
+                <option value="scanner">Mates & Carpets</option>
+                <option value="tablet">Foot Mates</option>
+                <option value="monitor">Dash Mat</option>
               </select>
               {formik.touched.category && formik.errors.category && (
                 <p className="text-xs font-semibold text-red-500">
@@ -224,7 +224,7 @@ const AddProduct = () => {
                     className="form-radio"
                   />
                   <label htmlFor="apple" className="tracking-widest">
-                    Apple
+                  AFRODIVE
                   </label>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -237,7 +237,7 @@ const AddProduct = () => {
                     className="form-radio"
                   />
                   <label htmlFor="dell" className="tracking-widest">
-                    Dell
+                  3D KAGU
                   </label>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -250,7 +250,7 @@ const AddProduct = () => {
                     className="form-radio"
                   />
                   <label htmlFor="hp" className="tracking-widest">
-                    HP
+                  A-STARS ENTERPRISES
                   </label>
                 </div>
                 <div className="flex items-center space-x-2">

@@ -20,9 +20,14 @@ const TheContact = () => {
         </h3>
         <div className="flex flex-col lg:flex-row justify-between space-y-4">
           <p className="text-gray-500 leading-loose lg:w-1/2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            sint unde quaerat ratione soluta veniam provident adipisci cumque
-            eveniet tempore?
+          Buying a new set of car mats can greatly improve 
+          your ride interior decor. Toss away your old, 
+          dirty mat to replace with squeaky clean car floor
+           mats to start fresh. Muddy stains and footprints 
+           don’t paint a good picture. An unclean and filthy 
+           car floor mat can bring down the complete aesthetic
+            of your vehicle. Consider replacing it when the car 
+            mats no longer offer cleanliness.
           </p>
           <div className="">
             <form>

@@ -58,7 +58,9 @@ const About = () => {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: .5 }}
                             >
-                                Our Story
+                                Welcome to 
+                                <br />
+                                AM CarMats
                                 <svg
                                     className="svg-underline stroke-[#ffb81c] relative z-10 w-1/2"
                                     strokeLinejoin="round"
@@ -81,16 +83,22 @@ const About = () => {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: .5, duration: .8 }}
                             >
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-                                accusantium sapiente tempora sed dolore esse deserunt eaque
-                                excepturi, delectus error accusamus vel eligendi, omnis beatae.
-                                Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque
-                                dolore, obcaecati incidunt sequi blanditiis est exercitationem
-                                molestiae delectus saepe odio eligendi modi porro eaque in libero
-                                minus unde sapiente consectetur architecto. Ullam rerum, nemo iste
-                                ex, eaque perspiciatis nisi, eum totam velit saepe sed quos
-                                similique amet. Ex, voluptate accusamus nesciunt totam vitae esse
-                                iste.
+                                AM CarMats is dedicated to provide our customers with the most unique and 
+                                highest quality car mats. Our digitally measured car mats are designed 
+                                to fit your automobile perfectly. We are passionate about cars and that
+                                 is why we have taken upon ourselves to provide you with the most elegant
+                                  look for your car’s interior.
+                                  <br />
+                                  AM CarMats are digitally laser measured all-weather car 
+                                 mats customized to fit every automobile uniquely. Exclusively 
+                                 designed to not only cover the floor area but also the side panels 
+                                 to provide maximum protection. Each mat is engineered to fit perfectly
+                                  to shield the floor and side panels, making it almost impossible for
+                                   any solid or liquid mess to penetrate. The top surface of AM CarMats is
+                                    made of highest grade synthetic leather giving luxurious aesthetics to
+                                     car floor and is also waterproof. The bottom of the mat consists of 
+                                     anti-skid surface to provide firm grip with the floor. AM CarMats are 
+                                     engineered with environmentally safe materials and manufactured to be odour-free.
                             </motion.p>
                         </div>
                     </div>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { XIcon } from "@heroicons/react/solid";
 import { useSelector, useDispatch } from "react-redux";
 import { motion } from "framer-motion";
-import logo from "../image/logo.png";
+// import logo from "../image/logo.png";
 
 import HambergurMenu from "../assets/HambergurMenu.svg";
 // import Logo from '../assets/logo.svg';
@@ -25,28 +25,28 @@ const MainNavigation = () => {
     dispatch(logout(token));
   };
 
-  const svgVariants = {
-    hidden: { rotate: -180 },
-    visible: {
-      rotate: 0,
-      transition: { duration: 1 },
-    },
-  };
+  // const svgVariants = {
+  //   hidden: { rotate: -180 },
+  //   visible: {
+  //     rotate: 0,
+  //     transition: { duration: 1 },
+  //   },
+  // };
 
-  const pathVariants = {
-    hidden: {
-      opacity: 0,
-      pathLength: 0,
-    },
-    visible: {
-      opacity: 1,
-      pathLength: 1,
-      transition: {
-        duration: 3,
-        ease: "easeInOut",
-      },
-    },
-  };
+  // const pathVariants = {
+  //   hidden: {
+  //     opacity: 0,
+  //     pathLength: 0,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     pathLength: 1,
+  //     transition: {
+  //       duration: 3,
+  //       ease: "easeInOut",
+  //     },
+  //   },
+  // };
 
   const buttonVariants = {
     hover: {
@@ -64,19 +64,19 @@ const MainNavigation = () => {
       <div className="flex  justify-between items-center w-full h-full px-8 sm:mb-6">
         <div className="flex">
           <div className="flex items-center">
-            <motion.div
+            {/* <motion.div
               className="w-[92px] h-[60px]"
               drag
               dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
               dragElastic={0.7}
-            >
+            > */}
               {/* <NavLink to='/'><img src={Logo} alt="" /></NavLink> */}
-              <NavLink to="/">
+              {/* <NavLink to="/">
               <div class="logo">
-              <img src={logo} style={{height: '56px', width: '93px'}}/>
+              <img src={logo} style={{height: '56px', width: '93px'}} alt="prop"/>
               </div>
-              </NavLink>
-            </motion.div>
+              </NavLink> */}
+            {/* </motion.div> */}
             <motion.div
               initial={{ y: -250 }}
               animate={{ y: 0 }}
@@ -84,8 +84,8 @@ const MainNavigation = () => {
             >
               <NavLink to="/">
                 <h1 className="text-3xl font-bold ml-2 select-none">
-                  {/* <span className="text-primary">TECH</span>
-                  <span className="text-secondary-200">SHOP.</span> */}
+                  <span className="text-primary">AM</span>
+                  <span className="text-secondary-200">CarMats.</span>
                 </h1>
               </NavLink>
             </motion.div>

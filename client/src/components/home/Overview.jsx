@@ -1,21 +1,63 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+// import { Link } from "react-router-dom";
+import styled from "styled-components";
+import image from "../../image/center2.jpg";
 
 const Overview = () => {
-    return (
-        <div className="w-full bg-[#f1f5f8] py-32 text-center">
-            <div className="px-3 lg:px-0 lg:w-[55%] mx-auto">
-                <h2 className="font-extrabold text-5xl text-[#242833] capitalize mb-10 tracking-widest leading-10">Company Overview</h2>
-                <p className="text-lg text-[#555] tracking-widest font-normal mb-5 leading-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilla. sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                <p className="text-lg text-[#555] tracking-widest font-normal mb-5 leading-7">Lorem, ipsum dolor.</p>
-                <Link className="inline-block px-6 py-3 font-semibold tracking-wider text-white bg-primary uppercase mt-8 text-lg hover:bg-secondary-200 transition-all duration-300" to='/about'>
-                    View More
-                </Link>
+   return(
+        
+      <Root>
+       <div className='flex'>
+       {/* <h2>Company Overview</h2> */}
+           <div className="flex2">
+       <div className="image">     
+       {/* <img src='https://raisingchildren.net.au/__data/assets/image/0033/48786/healthy-food-school-age-children.jpg' alt="props"/> */}
+       <img src={image} style={{height: '400px', width: '450px'}} alt="prop"/>
+       </div>
+       <div className="flex3">
+        <h1><b>ABOUT AM CarMates CAR MATS</b></h1>
+        <br />
+           <p>CliMats ® are luxury car mats that are digitally measured for
+             a perfect fit. Unlike others in the market, these all-weather/waterproof
+              custom car mats cover the entire floor and side panels to provide maximum 
+              protection. They are made with an anti-skid surface to provide long-lasting
+              traction and durability. CliMats ® are designed with the highest grade 
+              synthetic leather to provide a luxurious interior finish to further enhance
+               your driving experience.</p>
+               {/* <div className="two_button">
+                   <a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp" target="blank" className="btn3">About Us</a>
+                   <a href="#" className="btn4">Our Story</a>
+                  
+ 
+               </div> */}
+              </div>
             </div>
-        </div>
-    );
+          </div>
+          </Root>
+   )
 };
-
-
 export default Overview;
+ 
+ 
+const Root = styled.section`
+.flex {
+   background:url(images/new1.jpg);
+   background-size: cover;
+   height: auto;
+   color: black;
+   margin-top: 0px
+}
+.flex2{
+  display: flex;
+  margin: 22px 100px 22px 100px;
+  flex: 1;
+  align-items: center;
+  & > div{
+    flex:1;
+  }
+  img{
+    margin:auto;
+  }
+}
+
+  `
