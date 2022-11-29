@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HERO_URL } from 'constants';
+import { HERO_URL } from '/constants';
 // import Image from "../../image/hero4.jpg";
 
 // import { Link } from 'react-router-dom';
