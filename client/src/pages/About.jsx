@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import PageHero from '../layout/PageHero';
+
 const ABOUT_IMG_URL = 'https://www.kindpng.com/picc/m/672-6722744_tapis-auto-michelin-hd-png-download.png';
 
 const containerVariants = {
