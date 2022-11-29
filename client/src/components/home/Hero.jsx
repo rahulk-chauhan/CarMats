@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HERO_URL } from '/constants';
+const HERO_URL = 'https://www.motortrend.com/uploads/sites/5/2021/03/2021-Honda-Accord-vs-2021-Kia-K5-vs-2021-Subaru-Legacy-vs-2021-Mazda6-vs-2021-Hyundai-Sonata-vs-2021-Toyota-Camry-vs-2021-Nissan-Altima-3.jpg';
 // import Image from "../../image/hero4.jpg";
 
 // import { Link } from 'react-router-dom';

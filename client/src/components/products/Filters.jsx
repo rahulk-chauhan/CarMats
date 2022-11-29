@@ -2,7 +2,13 @@ import React, { useEffect } from "react";
 import { productsActions } from "../../store/products-slice";
 import { useDispatch, useSelector } from "react-redux";
 
-import { BRANDS, CATEGORIES } from "/constants";
+const CATEGORIES = [
+  'all', 'Car Mates', 'Automotive Accessories', 'Vehicle Mates', 'Mates & Carpets', 'Foot Mates', 'Dash Mat'
+];
+
+const BRANDS = [
+  'All', 'AFRODIVE', ' 3D KAGU', ' A-STARS ENTERPRISES', 'ACCESSOREEZ'
+];
 import { formatPrice } from '../../utils/helpers';
 
 // const initialFilters = {
